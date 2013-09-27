@@ -191,6 +191,12 @@
     [religion = 'jewish'] {
       point-file: url('symbols/jewish3.p.16.png');
     }
+    [religion = 'buddhist'] {
+      point-file: url('symbols/buddhist3.p.16.png');
+    }
+    [religion = 'shinto'] {
+      point-file: url('symbols/shinto3.p.16.png');
+    }
   }
 
   [amenity = 'police'][zoom >= 17]::amenity {
