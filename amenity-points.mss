@@ -383,7 +383,7 @@
   [amenity = 'restaurant']::amenity,
   [amenity = 'cafe']::amenity,
   [amenity = 'fast_food']::amenity,
-  [amenity = 'beirgarten']::amenity {
+  [amenity = 'biergarten']::amenity {
     [zoom >= 17] {
       text-name: "[name]";
       text-fill: #734a08;
@@ -840,7 +840,7 @@
   [amenity = 'pharmacy'][zoom >= 17]::amenity {
     text-name: "[name]";
     text-size: 8;
-    text-dy: 9;
+    text-dy: 10;
     text-fill: #da0092;
     text-face-name: @book-fonts;
     text-halo-radius: 1;
