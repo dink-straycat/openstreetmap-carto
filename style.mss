@@ -2,9 +2,9 @@ Map {
   background-color: @water-color;
 }
 
-@book-fonts: "DejaVu Sans Book", "unifont Medium", "VL Gothic regular";
-@bold-fonts: "DejaVu Sans Bold", "unifont Medium", "VL Gothic regular";
-@oblique-fonts: "DejaVu Sans Oblique", "unifont Medium", "VL Gothic regular";
+@book-fonts: "DejaVu Sans Book", "VL Gothic regular", "unifont Medium";
+@bold-fonts: "DejaVu Sans Bold", "VL Gothic regular", "unifont Medium";
+@oblique-fonts: "DejaVu Sans Oblique", "VL Gothic regular", "unifont Medium";
 
 @water-color: #b5d0d0;
 @land-color: #f2efe9;
