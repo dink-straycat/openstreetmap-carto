@@ -106,7 +106,7 @@
   }
 
   [amenity = 'hospital'][zoom >= 15]::amenity {
-    point-file: url('symbols/hospital.p.16.png');
+    point-file: url('symbols/jp-symbols/hospital16.png');
     point-placement: interior;
   }
 
@@ -136,7 +136,7 @@
   }
 
   [amenity = 'library'][zoom >= 17]::amenity {
-    point-file: url('symbols/library.p.20.png');
+    point-file: url('symbols/jp-symbols/library16.png');
     point-placement: interior;
   }
 
@@ -163,7 +163,7 @@
     point-placement: interior;
   }
 
-  [amenity = 'parking'][zoom >= 15]::amenity {
+  [amenity = 'parking'][zoom >= 18]::amenity {
     point-file: url('symbols/parking.p.16.png');
     point-placement: interior;
     [access != ''][access != 'public'][access != 'yes'] {
@@ -192,15 +192,15 @@
       point-file: url('symbols/jewish3.p.16.png');
     }
     [religion = 'buddhist'] {
-      point-file: url('symbols/buddhist3.p.16.png');
+      point-file: url('symbols/jp-symbols/temple16.png');
     }
     [religion = 'shinto'] {
-      point-file: url('symbols/shinto3.p.16.png');
+      point-file: url('symbols/jp-symbols/shrine16.png');
     }
   }
 
   [amenity = 'police'][zoom >= 17]::amenity {
-    point-file: url('symbols/police.p.16.png');
+    point-file: url('symbols/jp-symbols/police_station16.png');
     point-placement: interior;
   }
 
@@ -210,7 +210,7 @@
   }
 
   [amenity = 'post_office'][zoom >= 17]::amenity {
-    point-file: url('symbols/post_office.p.16.png');
+    point-file: url('symbols/jp-symbols/post_office16.png');
     point-placement: interior;
   }
 
@@ -280,7 +280,7 @@
   }
 
   [historic = 'memorial'][zoom >= 17]::historic {
-    point-file: url('symbols/tourist_memorial.p.20.png');
+    point-file: url('symbols/jp-symbols/historical16.png');
     point-placement: interior;
   }
 
